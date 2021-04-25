@@ -24,11 +24,11 @@ We may or may not transition there, but for now we are going VM.
 
 So far, the only low-cost options for OmniOS or Illumos VM / server hosting seem to be
 
- - AWS
+ - AWS (50% marketshare of all cloud hosting already)
     - [available as AMI]
     - they support [woke] agenda and other un-Christian behaviour
     - their interface is more complex and pricing is less transparent
- - Joyent
+ - Joyent (recently acquired by Samsung)
     - only supports SmartOS
     - seems focused on bigger accounts
 
