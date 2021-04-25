@@ -38,7 +38,7 @@ The best alternative I could find so far was
     - Best known for: simple user interface, better pricing than AWS for small projects
     - A custom image must be built to run this OS. (Thus creation of this repo.)
     - They chose hCaptcha over reCaptcha, which implies a prioritization of privacy
-    - They made [no comment on BLM], which implies hesitation to go [woke].
+    - They made [no comment on BLM], which implies hesitation to go woke.
     - support competition in the marketplace by not using AWS, Azure, Google Cloud
 
 Unlike SmartOS (Joyent's preference), OmniOS supports traditional ISO installations and boot-from-disk we take for granted, without requiring network or USB boot each time. This simplifies future migration to bare-metal, as well as diversifying with temporary VirtualBox installations as-needed.
