@@ -4,6 +4,17 @@ Hosting OmniOS on DigitalOcean by creating a Custom Image (create with VirtualBo
 What we are trying to do is run OmniOS on Digital Ocean.
 This is for those who want an alternative to AWS or Joyent.
 
+This is not yet an option for most production needs
+---------------------------------------------------
+
+As of this writing, any Digital Ocean mounted volumes will not appear on OmniOS due to lack Illumos of support for virtio-scsi (`vioscsi`) which is how Digital Ocean is exposing their images.
+
+This means you will never be able to add disk space to an existing instance. You would have to migrate data to a larger instance instead.
+
+> Don't bother with block storage. That's exposed by virtio-scsi, which illumos doesn't yet support. ([source](https://ptribble.blogspot.com/2021/04/running-tribblix-on-digital-ocean.html))
+
+So for now I'm using Ubuntu, because Canonical seems all-in on improving its ZFS support, and it is completely working on Digital Ocean as well.
+
 Reasoning and background
 ------------------------
 
